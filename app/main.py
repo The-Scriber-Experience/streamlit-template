@@ -1,12 +1,14 @@
 import streamlit as st
-from ui.styles.theme import load_theme
-from ui.helpers.example import hello
-
-# This MUST be the first Streamlit command
-st.set_page_config(page_title="Eigenscribe © 2026 Streamlit Theme", layout="wide")
-
+from eigenscribe_ui.styles.theme import load_theme
 # Now load the theme
 load_theme()
+
+from eigenscribe_ui.helpers.example import hello
+
+# ‼️‼️ This MUST be the first Streamlit command ‼️‼️
+st.set_page_config(page_title="Eigenscribe © 2026 Streamlit Theme", layout="wide")
+
+
 
 st.title("Eigenscribe © 2026 Streamlit Theme")
 st.write("If you can see this, everything is working.")
