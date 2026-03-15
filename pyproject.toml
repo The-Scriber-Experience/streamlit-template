@@ -1,7 +1,7 @@
 [project]
-name = "kuramoto-app"
+name = "streamlit-template"
 version = "0.1.0"
-description = "Streamlit app for visualizing the Kuramoto model."
+description = "Template streamlit app for Eigenscribe Inc."
 requires-python = ">=3.11"
 dependencies = [
     "streamlit>=1.44.1",
@@ -14,6 +14,9 @@ dependencies = [
     "scipy>=1.15.2",
     "sqlalchemy>=2.0.40",
     "trafilatura>=2.0.0",
+    "pytest",
+    "black",
+    "ruff",
 ]
 
 [build-system]
